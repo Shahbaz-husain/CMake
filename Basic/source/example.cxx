@@ -4,6 +4,7 @@
 using namespace std;
 
 template <typename T>
+requires integral<T>
 void printInteger(T value) {
     cout << value << endl;
 }

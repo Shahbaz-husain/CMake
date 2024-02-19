@@ -5,9 +5,7 @@ project(ExampleApp
         LANGUAGES CXX)
 
 #Targets
-add_executable(app example.cxx)   
-add_executable(app1 example.cxx)   
-add_executable(app2 example.cxx)   
+add_executable(app example.cxx)
+
+#Adding compiler information
 target_compile_features(app PRIVATE cxx_std_20)
-target_compile_features(app1 PRIVATE cxx_std_20)
-target_compile_features(app2 PRIVATE cxx_std_20)
